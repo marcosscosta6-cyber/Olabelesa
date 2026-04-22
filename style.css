@@ -1,0 +1,145 @@
+*{
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  margin: 0;
+
+}
+
+body{
+    background-image: url(img/Design\ sem\ nome.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #040a18; 
+    padding: 15px;
+    
+}
+
+#title img{
+  max-width: 100%;
+  height: auto;
+  width: 60px; 
+}
+
+#title{
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.destaque{
+    color: rgb(6, 230, 118);
+}
+
+nav {
+    margin-left: auto; 
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#main-text{
+    margin-top: 20px ;
+    flex: 1;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(6, 230, 118);
+h3{
+    color: aliceblue;
+}
+
+}
+
+.box-busca{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buscar-cripto{
+  margin-top: 15px;
+  text-align: center;
+  color: #22c55e;
+}
+
+.active {
+  border-bottom: 2px solid #22c55e;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #040811;
+    font-size: 15px;
+    color: #ffffff;
+    border: 3px solid rgb(6, 230, 118);
+}
+
+button {
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  color: aliceblue;
+  border: 2px solid rgb(6, 230, 118);
+  border-radius: 10px;
+  background-color:rgb(6, 230, 118);
+}
+
+button:disabled {
+  background: gray;
+  border: gray ;
+}
+
+#lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: #040811;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
+
+footer{
+    position: sticky;
+    top: 100vh;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 10px;
+    background-color:#040811;
+    color: aliceblue;
+}
+
+footer img{
+    width: 40%;
+}
